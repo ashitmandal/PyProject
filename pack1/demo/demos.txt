@@ -1,0 +1,35 @@
+Method in python
+	regular method
+	class method
+	static method
+vatiable in python->
+	class variable
+	local variable(insife the function,function arguments etc)
+
+scope in python->>
+LEGB(local variable,global variable,Buildin variable,ench)
+
+
+------------
+imp command:
+->>print(help(class name))
+->>print(dir(list/touple etc))->to get all the method vaailable associated with tat
+-------
+
+->>to get all teh details about class or and scope of a class or object
+print(class/objName.__dict__)
+----
+special method
+--------------
+__init__,
+
+__repr__->used for debugging and logging 
+__str__->to represent for more readable to a op format
+--------------
+Getter.Setter properties
+Getter->Access the methos as a variable(Used @property )
+setter->@functionName.getter/setter,
+
+list,dict compression
+------------------
+my_list={name: title for name,title in zip(name,title) if title == 'mandal'}

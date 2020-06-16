@@ -1,4 +1,4 @@
-"""
+
 class open_file():
     
     def __init__(self,filename,mode):
@@ -27,4 +27,3 @@ print(help(open_file))
 
 
 
-"""
